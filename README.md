@@ -1,6 +1,11 @@
 # Updates
 
-Built copies of the Lucid Dreams show's Mac applications, for the update check inside each application.
+A signed update feed for Prism and Mesh, two of the Mac applications of the **Lucid Dreams** show software (Iziko,
+2026).
+
+**Dormant.** There are no feed files or releases here yet, and nothing reads this repository: the show's
+applications update through Deck, the show controller on each show Mac, from a private store. This feed is kept for
+a possible public update path later.
 
 | Application | What it is | Feed file | Release tags |
 |---|---|---|---|
@@ -10,13 +15,13 @@ Built copies of the Lucid Dreams show's Mac applications, for the update check i
 The feed files keep the applications' old names (`ovs`, `om`), as do the bundle identifiers, so that copies already
 installed keep finding them.
 
-Nothing is here yet: the release signing key has not been made, so no version has been published for updates. Each
-application will have one small file here saying what its newest version is, and each version will be a release on
-this repository carrying the application as a zip.
+Nothing is here yet: the release signing key has not been made, so no version has been published here. If the feed
+is ever used, each application will have one small file here saying what its newest version is, and each version
+will be a release on this repository carrying the application as a zip.
 
-## How an application uses this
+## How an application would use this
 
-An installed application reads its own file here, at start and once a day. If a newer version is listed it says so.
+An installed application would read its own file here, at start and once a day. If a newer version is listed it says so.
 It installs only when a person asks it to.
 
 Every zip is signed. An application checks that signature against a key built into it before it replaces anything,
@@ -39,4 +44,4 @@ xattr -dr com.apple.quarantine /Applications/Prism.app
 
 The source of these applications is not in this repository.
 
-Copyright Digimax Ltd.
+Copyright (c) 2026 UWC Immersive Zone, University of the Western Cape. MIT licence: see [LICENSE](LICENSE).
