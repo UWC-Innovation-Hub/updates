@@ -1,5 +1,3 @@
-> **Retired (28 November 2026).** The show apps no longer update from this feed: updates come through the Lucid Dream Launcher and Deck. Archived, kept for history.
-
 # Updates
 
 A signed update feed for Prism and Mesh, two of the Mac applications of the **Lucid Dreams** show software (Iziko,
